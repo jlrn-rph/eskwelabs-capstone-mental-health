@@ -28,8 +28,9 @@ To run the code, please follow these steps:
 
 * Chatbot Building
     * Consult with mental health professionals and collaborate with existing initiatives.
-    * Make the chatbot be able to respond in Filipino for inclusivity.
-    * Find ways to improve the chatbot's conversational ability e.g. use other APIs, include therapy and client conversations
+    * Make the chatbot able to respond in Filipino for inclusivity.
+    * Find ways to improve the chatbot's conversational ability e.g. use other APIs, including therapy and client conversations
+
 ![Beyond the Numbers of Mental Health Message](https://github.com/jlrn-rph/eskwelabs-capstone-mental-health/blob/main/assets/message.png)
 
 ## Meet the Team
