@@ -251,19 +251,55 @@ def the_team():
     st.title("The Team")
     st.markdown(
         """
-        We are the team **JARDiS**! We are a group of individuals from diverse backgrounds who came together as part of the Eskwelabs Data Science Cohort 11. In our capstone project, we collaborated to create a data-driven presentation on mental health entitled **Beyond the Numbers of Mental Health: Analyzing Reddit Posts on Mental Health in the Philippines and Developing BESHY (Bot for Emotional Support and a Happy You)**.
+        We are the team **JARDiS**! We are a group of individuals from diverse backgrounds who came together as part of the Eskwelabs Data Science Cohort 11. In our capstone project, we collaborated to create a data-driven presentation on mental health entitled **Beyond the Numbers of Mental Health: Analyzing Reddit Posts on Mental Health in the Philippines and Developing BESHY (Bot for Emotional Support and a Happy You)**. 
+        
+        The project involved utilizing the PRAW library for web scraping, spaCy for data processing, conducting exploratory data analysis, and topic modeling using the HDP algorithm to analyze Reddit posts. The team developed classification models employing XGBoost for classifying the mental health concerns of the users. Additionally, geocoding techniques were employed to provide users with recommendations for the nearest mental health facility based on their location. Finally, the solution was deployed within a Rasa-powered chatbot.
         """
     )
     st.header("Members")
     st.subheader("[Austin Loi Carvajal](https://www.linkedin.com/in/austincarvajal/)")
+    st.markdown(
+        """
+        * Worked on the classification model for anxiety. Used the TF-IDF vectorizer on posts about anxiety and posts about random thoughts to be able to train and test different models such as XGBoost, Random Forest, and Support Vector Classifier. This was an important part of creating a chatbot to help users understand their feelings.
+        * Brainstormed potential analyses and chatbot functionalities that led to the final project objectives. 
+        """
+    )
     
     st.subheader("[Ron-Ron de Guzman](https://www.linkedin.com/in/ron-ron-de-guzman-b74a5b92/)")
+    st.markdown(
+        """
+        * Performed web scraping of Reddit posts using the Reddit API, ensuring to obtain as much content as possible that led the team to arrive at useful insights later on.
+        * Conducted exploratory data analysis and led the creation of visualizations that supported the value of working on mental health and highlighted the ways to do so.
+        * Collected mental health resources as part of the information BESHY is able to provide to users. 
+        """
+    )
 
     st.subheader("[Reynaly Shen Javier](https://www.linkedin.com/in/reynaly-shen-javier/)")
+    st.markdown(
+        """
+        * Performed topic modeling and analyzed the topics’ content. This includes studying how topics differ across types of posts and across time and emphasizing mental healthcare problems that need to be worked on.
+        * Worked on storytelling and exploratory data analysis to ensure the audience understands and appreciates the problem and the solution the team is offering.
+        * Generated recommendations on mental healthcare provision and the technical parts of the project.
+        """
+    )
 
     st.subheader("[Denise Montecastro](https://www.linkedin.com/in/denise-montecastro-573b34a2/)")
+    st.markdown(
+        """
+        * Led the ideation of the analyses and modeling that needed to be performed for the project, ending up with a clear data pipeline for the team.
+        * Performed and guided the web scraping of Reddit posts using the Reddit API that gathered valuable data for the team to analyze and build models on.
+        * Worked on the classification model for depression. Used the TF-IDF vectorizer on posts about anxiety and posts about random thoughts to be able to train and test different models such as XGBoost, Random Forest, and Support Vector Classifier. This was an important part of creating a chatbot to help users understand their feelings.
+        """
+    )
 
     st.subheader("[Justin Louise Neypes](https://www.linkedin.com/in/jlrnrph/)")
+    st.markdown(
+        """
+        * Developed and deployed the chatbot using Rasa. This includes defining the bot's behavior by crafting dialogue flows and designing relevant intents, entities, and actions. Performed training and fine-tuning of the model’s Natural Language Understanding, which involved creating training data, analyzing model performance, and iterating on improvements.
+        * Implemented custom actions and rules that allowed the bot (1) to empathize with users experiencing anxiety and depression, offering tailored self-care strategies and coping techniques; (2) to handle specific user requests, such as finding the nearest mental health facilities, and (3) to flag high-risk messages such as suicidal thoughts.
+        * Spearheaded the design and deployment of the capstone project on Streamlit, showcasing the findings to others.
+        """
+    )
 
     st.subheader("Mentor: Aaron Sta. Clara")
 
