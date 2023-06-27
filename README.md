@@ -1,6 +1,8 @@
 # Capstone Project: Beyond the Numbers of Mental Health
 This project is created by team **JARDiS**. We are a group of individuals from diverse backgrounds who came together as part of the Eskwelabs Data Science Cohort 11. In our capstone project, we collaborated to create a data-driven presentation on mental health entitled **Beyond the Numbers of Mental Health: Analyzing Reddit Posts on Mental Health in the Philippines and Developing BESHY (Bot for Emotional Support and a Happy You)**.
 
+The project involved utilizing the PRAW library for web scraping, spaCy for data processing, conducting exploratory data analysis, and topic modeling using the HDP algorithm to analyze Reddit posts. The team developed classification models employing XGBoost for classifying the mental health concerns of the users. Additionally, geocoding techniques were employed to provide users with recommendations for the nearest mental health facility based on their location. Finally, the solution was deployed within a Rasa-powered chatbot.
+
 ## Project Deployment
 [Beyond the Numbers of Mental Health Streamlit](https://jardis-beyond-the-numbers-mental-health.streamlit.app/)
 
@@ -13,7 +15,21 @@ To run the code, please follow these steps:
 4. Run the application using the following command: `streamlit run app.py`.
 5. The application will open in your browser.
 
-## Conclusion
+## Recommendations
+* Data Collection
+    * Include more posts from Reddit through other APIs.
+    * Expand to other social media platforms since Reddit users may have characteristics that are specific to them.
+
+* Natural Language Processing
+    * Find better ways to pre-process and apply NLP on posts written in the Filipino language.
+
+* Classification Model
+    * Find training data that is specifically from the Philippines.
+
+* Chatbot Building
+    * Consult with mental health professionals and collaborate with existing initiatives.
+    * Make the chatbot be able to respond in Filipino for inclusivity.
+    * Find ways to improve the chatbot's conversational ability e.g. use other APIs, include therapy and client conversations
 ![Beyond the Numbers of Mental Health Message](https://github.com/jlrn-rph/eskwelabs-capstone-mental-health/blob/main/assets/message.png)
 
 ## Meet the Team
